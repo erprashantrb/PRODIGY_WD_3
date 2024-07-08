@@ -1,0 +1,58 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff; /* AliceBlue */
+    color: #000080; /* Navy */
+}
+
+section {
+    text-align: center;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #87cefa;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    color: #000080; 
+    background-color: #ffffff; 
+}
+
+.game--title {
+    font-size: 50px;
+    color: #000080; 
+    margin: 50px auto;
+    opacity: .8;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #87cefa; 
+    color: #000080; 
+}
+
+.game--status {
+    font-size: 30px;
+    color: #000080; 
+    margin: 20px auto;
+}
+
+.game--restart {
+    width: 200px;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 20px;
+    color: #ffffff; 
+    background-color: #000080; 
+    border: none;
+    cursor: pointer;
+}
+
+.game--restart:hover {
+    background-color: #4682b4; 
+}
